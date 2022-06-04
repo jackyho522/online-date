@@ -16,4 +16,5 @@ Library used:
 2. hackzilla/password-generator: 1.6
 3. gilbitron/easycsrf: 1.5
 
+![error_ajax](./error_msg.png)
 
