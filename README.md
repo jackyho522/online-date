@@ -12,8 +12,8 @@ Security functions:
 4. CSRF token
 
 Library used:
-ramsey/uuid: 4.2
-hackzilla/password-generator: 1.6
-gilbitron/easycsrf: 1.5
+1. ramsey/uuid: 4.2
+2. hackzilla/password-generator: 1.6
+3. gilbitron/easycsrf: 1.5
 
 
