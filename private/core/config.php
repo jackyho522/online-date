@@ -9,3 +9,7 @@ define('bootstrap', 'public/bootstrap-5.1.3/');
 define('js', 'public/js/');
 define('css', 'public/css/');
 define('assets', 'public/assets/');
+if(!isset($_SESSION)) 
+{ 
+    session_start(); 
+} 
