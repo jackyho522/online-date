@@ -1,0 +1,16 @@
+MVC
+model ----> DB (access to db), does not depend on view and controller
+view ----> UI + presentation of the application
+controller ---->choose what view/model to show/use
+            ----> get instructions from the url 
+            ----> handle all the interactions and inputs from the customer view 
+            ----> update database
+
+            BROWSER ---> output
+            |     |
+        REQUEST  RESPOSNE
+            |      |
+            controller
+    rendering           exchange
+    data                   data
+view                           model

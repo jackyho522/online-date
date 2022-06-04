@@ -1,0 +1,30 @@
+.breadcrumb {
+    height: 40px;
+}
+
+/* https://html-css-js.com/css/generator/box-shadow/ */
+.breadcrumb__item {
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-flex;
+    border: 5px solid #483D8B;
+    font-size: 16px;
+    transform: skew(25deg, 0deg);
+    box-shadow: 5px 8px 5px 3px rgba(0, 0, 0, 0.25);
+    margin: 5px;
+    padding: 0 10px;
+}
+
+
+.breadcrumb .inner {
+    transform: skew(-15deg);
+}
+
+.breadcrumb__item:hover {
+    background: #9932CC;
+    color: #FFF;
+}
+

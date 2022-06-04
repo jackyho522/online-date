@@ -1,0 +1,190 @@
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0; 
+    background: transparent;  /* scrollbar invisible */
+}
+
+.form-box {
+    font-family: 'Montserrat', sans-serif;
+	margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+	width: 800px;
+    height: 850px;
+    overflow-y: scroll;
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+}
+
+.user-box {
+	margin-top: 70px;
+	margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+	width: 50%;
+    font-size: 20px;
+	height: 700px;
+	overflow-y: scroll;
+	background: rgb(216, 224, 226);
+    color: black;
+	border-radius: 15px;
+	-webkit-box-shadow: 7px 13px 19px 7px #8F8F8F; 
+	box-shadow: 7px 13px 19px 7px #8F8F8F;
+}
+
+.message-box{
+	margin-top: 70px;
+	margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+	width: 50%;
+    font-size: 20px;
+    color: black;
+	border-radius: 15px;
+	-webkit-box-shadow: 7px 13px 19px 7px #8F8F8F; 
+	box-shadow: 7px 13px 19px 7px #8F8F8F;
+}
+
+.card-body {
+	height: 700px;
+	overflow-y: scroll;
+	background: rgb(216, 224, 226);
+}
+
+#chat_msg {
+	width: 70%;
+	height: 50px;
+	box-sizing: border-box;
+	background-color: #f8f8f8;
+	font-size: 16px;
+	resize: none;
+}
+
+img.pic {
+	margin: 20px 5px 5px 20px;
+	width: 50px;
+	height: 50px;
+}
+
+div.name {
+	border-left: thick solid black;
+}
+
+.status-dot1 {
+	color: rgb(32, 158, 32);
+	margin: 37px 5px 5px 50px;
+	font-size: 18px;
+}
+
+.status-dot0 {
+	margin: 37px 5px 5px 50px;
+}
+
+.form-top {
+	overflow: hidden;
+	padding: 0 25px 15px 25px;
+	background: #808080;
+	text-align: left;
+}
+
+.form-top-left {
+	float: left;
+	padding-top: 25px;
+	width: 75%;
+}
+
+.form-top-right {
+	float: left;
+	width: 25%;
+	padding-top: 20px;
+	font-size: 80px;
+	color: #fff;
+	line-height: 100px;
+	text-align: right;
+	opacity: 0.5;
+}
+
+.form-bottom {
+	padding: 30px 30px 30px 30px;
+	background: #444;
+	text-align: left;
+}
+
+.form-bottom form textarea {
+	height: 100px;
+}
+
+.form-bottom form button.btn {
+	width: 100%;
+}
+
+button.btn {
+	margin: 0;
+    padding: 0 20px;
+	font-size: 20px;
+	font-weight: bold;
+    color: #fff;
+	height: 50px;
+    background: orange;
+	vertical-align: middle;
+	border: none;
+}
+
+/* https://html-css-js.com/css/generator/box-shadow/ */
+
+.btn-sm {
+	font-size: 20px;
+	transform: skew(-15deg);
+	-webkit-box-shadow: 5px 8px 5px 3px rgba(0, 0, 0, 0.25);
+	box-shadow: 5px 8px 5px 3px rgba(0, 0, 0, 0.25);
+	margin: 5px;
+	padding: 0 10px;
+	background: #696969;
+	color: black;
+}
+
+input[type="radio"]:hover + label {
+	border: 5px solid #483D8B;
+	color: #fff;
+}
+
+input[type="radio"]:checked + label {
+	border: 5px solid orange;
+	color: #fff;
+}
+
+.profile {
+	width: 80%;
+}
+
+.options a {
+	color: orange;
+}
+
+.options a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.invalidFeedback {
+	color: red;
+}
+
+.btn-primary:hover {
+	border: 5px solid #e2a41c;
+}
+
+button.btn:hover { color: #fff; }
+
+button.btn:active { color: #fff; }
+
+button.btn:focus { background: red; color: #fff; }
+
+button.btn:active:focus, button.btn.active:focus { opacity: 0.2; background: red; color: #fff; }

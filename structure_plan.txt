@@ -1,0 +1,60 @@
+.
++-- online-date
+|   +-- .htaccess
+|   +-- structure_plan.txt
++-- private
+|   +-- controller
+    |   +-- AllusersController.php
+    |   +-- EditprofileController.php
+    |   +-- HomeController.php
+    |   +-- LoginController.php
+    |   +-- PmController.php
+    |   +-- ProfileController.php
+    |   +-- RegisterController.php
+|   +-- core
+    |   +-- helpers
+        |   +-- url_helper.php
+    |   +-- app.php
+    |   +-- autoload.php
+    |   +-- config.php (define database name, filepath etc)
+    |   +-- database.php 
+    |   +-- MainController.php
+|   +-- model
+    |   +-- Formerror.php
+    |   +-- Formerrors.php
+    |   +-- User.php
+|   +-- views
+    |   +-- include
+        |   +-- crumbs.view.php
+        |   +-- footer.view.php
+        |   +-- header.view.php
+        |   +-- nav.view.php
+    |   +-- pm.view.php
+    |   +-- allusers.view.php
+    |   +-- editprofile.view.php
+    |   +-- login.view.php
+    |   +-- main.view.php
+    |   +-- profile.view.php
+    |   +-- register.view.php
++-- public
+|   +-- assets
+    |   +-- usericon(folder to store upload users' icon)
+    	|   +-- testicon.png
+    |   +-- iconexample(folder to store icon examples)
+    |   +-- defaulticon.png(users default profile icon)
+    |   +-- coverpic.png(main page picture)
+    |   +-- love_icon.ico(website ico)	
+    |   +-- chatting.png(nav bar pic)	
+|   +-- bootstrap-5.1.3
+|   +-- css
+    |   +-- bodystyle.css
+    |   +-- crumbstyle.css (bootstrap breadcrumbs)
+    |   +-- formstyle.css
+    |   +-- navstyle.css
+|   +-- js
+    |   +-- register.js
+    |   +-- login.js	
+|   +-- .htaccess
+|   +-- index.php
+
+```

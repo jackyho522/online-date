@@ -1,0 +1,10 @@
+{
+    "name": "rindo/online-date",
+    "description": "online date app",
+    "type": "project",
+    "require": {
+        "ramsey/uuid": "^4.2",
+        "hackzilla/password-generator": "^1.6",
+        "gilbitron/easycsrf": "^1.5"
+    }
+}
